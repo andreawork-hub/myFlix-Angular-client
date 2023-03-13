@@ -1,0 +1,25 @@
+$primary: white;
+$secondary: #fc2983;
+$basic: black;
+$main: purple;
+
+.welcome-card {
+  margin: 25vh auto auto auto;
+  flex-direction: column;
+  width: 400px;
+  height: 300px;
+  background-color: $main;
+  box-shadow: 0 0 20px 2px $primary;
+  align-items: center;
+}
+
+h1 {
+  color: $primary;
+  margin-bottom: 75px;
+  margin-top: 40px;
+}
+
+.welcome-card-actions {
+  display: flex;
+  justify-content: space-evenly;
+}

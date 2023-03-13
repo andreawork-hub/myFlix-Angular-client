@@ -8,28 +8,25 @@ $main: purple;
   flex-wrap: wrap;
 }
 
-.signin-card {
+.movie-card {
   max-width: 18rem;
-  color: $primary;
+  margin: 3rem;
   background-color: $basic;
   box-shadow: 0 0 20px 1px $primary;
 }
 
-.signin-card-content {
+.movie-card-header {
+  height: 70px;
+}
+
+.mat-icon-button,
+.mat-button,
+.movie-card-subtitle {
   color: $secondary;
-  align-self: center;
 }
 
-.signin-card-header {
-  height: 40px;
-}
-
-.mat-raised-button {
-  color: $primary;
-  background-color: $secondary;
-}
-
-.signin-card-title {
+.movie-card-title {
   color: $primary;
   font-weight: bold;
+  margin-bottom: 10px;
 }

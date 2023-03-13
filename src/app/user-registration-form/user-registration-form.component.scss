@@ -1,0 +1,35 @@
+$primary: white;
+$secondary: #fc2983;
+$basic: black;
+$main: purple;
+
+.container {
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.signin-card {
+  max-width: 18rem;
+  color: $primary;
+  background-color: $basic;
+  box-shadow: 0 0 20px 1px $primary;
+}
+
+.signin-card-content {
+  color: $secondary;
+  align-self: center;
+}
+
+.signin-card-header {
+  height: 40px;
+}
+
+.mat-raised-button {
+  color: $primary;
+  background-color: $secondary;
+}
+
+.signin-card-title {
+  color: $primary;
+  font-weight: bold;
+}

@@ -1,0 +1,24 @@
+$primary: white;
+$secondary: #fc2983;
+$basic: black;
+$main: purple;
+
+.navbar-container {
+  position: fixed;
+  top: 0;
+  z-index: 999;
+  overflow: hidden;
+  width: 100%;
+  display: flex;
+  background-color: $main;
+  box-shadow: 0 0 20px 5px $primary;
+}
+
+.navbar {
+  background-color: $main;
+  color: $primary;
+}
+
+.nav-logo {
+  flex: 1 1 auto;
+}

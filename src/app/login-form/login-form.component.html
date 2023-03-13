@@ -1,9 +1,9 @@
-<mat-card>
-  <mat-card-header>
-    <mat-card-title>Login!</mat-card-title>
+<mat-card class="signin-card">
+  <mat-card-header class="signin-card-header">
+    <mat-card-title class="signin-card-title">Login!</mat-card-title>
   </mat-card-header>
-  <mat-card-content>
-    <form>
+  <mat-card-content class="signin-card-content">
+    <form class="signin-card-form">
       <mat-form-field>
         <input
           matInput
@@ -26,8 +26,8 @@
       </mat-form-field>
     </form>
   </mat-card-content>
-  <mat-card-actions>
-    <button mat-raised-button (click)="logInUser()" color="primary">
+  <mat-card-actions class="signin-card-actions">
+    <button class="mat-raised-button" mat-raised-button (click)="logInUser()">
       Login
     </button>
   </mat-card-actions>

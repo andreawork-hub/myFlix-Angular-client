@@ -1,0 +1,19 @@
+<div class="navbar-container">
+  <mat-toolbar class="navbar">
+    <span class="nav-logo">My Application</span>
+
+    <span class="nav-movies"
+      ><a mat-button (click)="toMovies()" routerLink="/movies"
+        >All Movies</a
+      ></span
+    >
+    <span class="nav-profile"
+      ><a mat-button (click)="toProfile()" routerLink="/profile"
+        >Profile</a
+      ></span
+    >
+    <span class="nav-logout"
+      ><a mat-button (click)="logOut()" routerLink="/welcome">Log Out</a></span
+    >
+  </mat-toolbar>
+</div>

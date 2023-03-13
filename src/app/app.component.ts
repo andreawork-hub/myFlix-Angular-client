@@ -1,28 +1,10 @@
-import { Component, OnInit } from '@angular/core';
-import { UserRegistrationFormComponent } from './user-registration-form/user-registration-form.component';
-import { LoginFormComponent } from './login-form/login-form.component';
-import { MatDialog } from '@angular/material/dialog';
+import { Component } from '@angular/core';
 
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.scss'],
 })
-export class AppComponent implements OnInit {
+export class AppComponent {
   title = 'myFlix-Angular-client';
-  constructor(public dialog: MatDialog) {}
-  ngOnInit(): void {}
-
-  openUserRegistrationDialog(): void {
-    this.dialog.open(UserRegistrationFormComponent, {
-      // Assigning the dialog a width
-      width: '280px',
-    });
-  }
-
-  openLoginDialog(): void {
-    this.dialog.open(LoginFormComponent, {
-      width: '280',
-    });
-  }
 }

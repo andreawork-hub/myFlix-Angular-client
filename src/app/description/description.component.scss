@@ -1,0 +1,16 @@
+$primary: white;
+$secondary: #fc2983;
+$basic: black;
+$main: purple;
+
+.dialog-card {
+  display: flex;
+  justify-content: center;
+  background-color: $secondary;
+}
+
+.dialog-title,
+.dialog-content,
+.dialog-button {
+  color: $primary;
+}
